@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <form class="submissionForm">
+      
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+      
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+      
+          <label for="telephone">Phone Number</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Your phone number">
+
+          <label for="budget">What is your budget?</label>
+          <input type="text" id="budget" name="budget" required>
+      
+          <label for="photos">What type of photo session are you looking for?</label>
+          <textarea id="photos" name="subject" placeholder="Write something.." required></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

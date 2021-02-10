@@ -1,4 +1,7 @@
-.submissionForm{
+label {
     display: block;
 }
 
+body {
+    background-image: url(/img/watercolor.png)
+}

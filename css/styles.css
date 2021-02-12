@@ -33,3 +33,27 @@ footer {
     padding: 10px;
     background-color: #ff9292;
 }
+
+#springChic {
+    border-bottom: 1px solid;
+    border-color: #ff9292;
+}
+
+#beachBabe {
+    border-bottom: 1px solid;
+    border-color: #ff9292;
+}
+
+#warmCozy {
+    border-bottom: 1px solid;
+    border-color: #ff9292;
+}
+
+#winterWonderland {
+    border-bottom: 1px solid;
+    border-color: #ff9292;
+}
+
+.carousel {
+    border: solid #ffb4b4
+}

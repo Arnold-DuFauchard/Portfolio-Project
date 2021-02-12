@@ -3,13 +3,13 @@ label {
 }
 
 body {
-    background-image: url(/img/watercolor.png)
+    background-image: url(/img/watercolor.png);
 }
 
 .jumbotron {
     padding: 30px;
     margin: 0;
-   background-color : #fff2ff
+   background-color : #ffe8e8;
 }
 
 #submit {
@@ -17,5 +17,19 @@ body {
 }
 
 .navbar {
-   background-color : #fff2ff
+   background-color : #ffb4b4;
+}
+
+.fa {
+    color: white;
+}
+
+.link {
+    color: white
+}
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background-color: #ff9292;
 }

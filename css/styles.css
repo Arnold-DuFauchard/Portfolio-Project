@@ -1,5 +1,7 @@
 label {
     display: block;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
 }
 
 body {
@@ -56,4 +58,38 @@ footer {
 
 .carousel {
     border: solid #ffb4b4
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+li {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h6 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
 }

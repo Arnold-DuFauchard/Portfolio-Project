@@ -1,63 +1,5 @@
-label {
-    display: block;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-}
-
 body {
-    background-image: url(/img/watercolor.png);
-}
-
-.jumbotron {
-    padding: 30px;
-    margin: 0;
-   background-color : #ffe8e8;
-}
-
-#submit {
-    display: block;
-}
-
-.navbar {
-   background-color : #ffb4b4;
-}
-
-.fa {
-    color: white;
-}
-
-.link {
-    color: white
-}
-
-footer {
-    margin: 0;
-    padding: 10px;
-    background-color: #ff9292;
-}
-
-#springChic {
-    border-bottom: 1px solid;
-    border-color: #ff9292;
-}
-
-#beachBabe {
-    border-bottom: 1px solid;
-    border-color: #ff9292;
-}
-
-#warmCozy {
-    border-bottom: 1px solid;
-    border-color: #ff9292;
-}
-
-#winterWonderland {
-    border-bottom: 1px solid;
-    border-color: #ff9292;
-}
-
-.carousel {
-    border: solid #ffb4b4
+    background-color: #ffffff;
 }
 
 p {
@@ -83,6 +25,12 @@ h2 {
     font-size: 40px;
 }
 
+h4 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 h5 {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
@@ -95,6 +43,30 @@ h6 {
     font-size: 30px;
 }
 
+.jumbotron {
+    padding: 30px;
+    margin: 0;
+    background-color : #ffffff;
+}
+
+.navbar {
+    background-color : #ffffff;
+ }
+
+.carousel {
+    border: solid #ffffff
+}
+
+label {
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.fa {
+    color: black;
+}
+
 /*--- Fixed Background Image --*/
 figure {
     background-image: url(/img/landscape.jpg);
@@ -103,4 +75,69 @@ figure {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#firstSection {
+    background-image: url(/img/wedding\ food.jpg);
+    min-height: 800px;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+#textFirstSection {
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+    color: white;
+}
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.link {
+    color: black
+}
+
+#springChic {
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+}
+
+#beachBabe {
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+}
+
+#warmCozy {
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+}
+
+#winterWonderland {
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+}
+
+#submit {
+    display: block;
 }

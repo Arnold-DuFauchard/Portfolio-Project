@@ -78,7 +78,7 @@ figure {
 }
 
 #firstSection {
-    background-image: url(/img/wedding\ food.jpg);
+    background-image: url(/img/Summer/food.jpg);
     min-height: 800px;
     background-attachment: local;
     background-position: center;
@@ -86,6 +86,7 @@ figure {
     background-size: cover;
     filter: blur(4px);
     -webkit-filter: blur(4px);
+    
 }
 
 #textFirstSection {
@@ -106,6 +107,10 @@ figure {
 
 .card-title {
     color: white;
+}
+
+.card-img-top {
+    opacity: 0.75;
 }
 
 footer {
